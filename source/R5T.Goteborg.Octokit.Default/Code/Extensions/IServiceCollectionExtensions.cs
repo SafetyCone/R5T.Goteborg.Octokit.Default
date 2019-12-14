@@ -14,9 +14,9 @@ namespace R5T.Goteborg.Octokit.Default
         {
             services
                 .AddSingleton<IGitHubOperator, GitHubOperator>()
-                .AddSingleton<IGitHubClientProvider, DefaultGitHubClientProvider>()
-                .AddSingleton<IAuthenticatedGitHubClientProvider, DefaultAuthenticatedGitHubClientProvider>()
-                .AddSingleton<IUnauthenticatedGitHubClientProvider, DefaultUnauthenticatedGitHubClientProvider>()
+                .AddSingleton<IGitHubClientProvider, GitHubClientProvider>()
+                .AddSingleton<IAuthenticatedGitHubClientProvider, AuthenticatedGitHubClientProvider>()
+                .AddSingleton<IUnauthenticatedGitHubClientProvider, UnauthenticatedGitHubClientProvider>()
                 .AddSingleton<IProductHeaderValueProvider, TProductHeaderValueProvider>();
                 ;
 
