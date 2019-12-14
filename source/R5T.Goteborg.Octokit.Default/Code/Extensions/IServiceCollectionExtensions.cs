@@ -2,8 +2,6 @@
 
 using Microsoft.Extensions.DependencyInjection;
 
-using R5T.Dacia.Extensions;
-
 
 namespace R5T.Goteborg.Octokit.Default
 {
