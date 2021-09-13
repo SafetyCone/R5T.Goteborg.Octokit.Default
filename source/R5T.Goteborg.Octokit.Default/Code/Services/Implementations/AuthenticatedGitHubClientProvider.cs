@@ -30,7 +30,7 @@ namespace R5T.Goteborg.Octokit.Default
 
             var gitHubClient = this.UnauthenticatedGitHubClientProvider.GetUnauthenticatedGitHubClient();
 
-            var basicAuthentication = new Credentials(gitHubAuthentication.UserName, gitHubAuthentication.Password);
+            var basicAuthentication = new Credentials(gitHubAuthentication.Username, gitHubAuthentication.Password);
 
             gitHubClient.Credentials = basicAuthentication;
 
