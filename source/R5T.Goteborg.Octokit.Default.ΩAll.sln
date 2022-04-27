@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Goteborg.Octokit.Defaul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Goteborg.Octokit.Default.Testing", "R5T.Goteborg.Octokit.Default.Testing\R5T.Goteborg.Octokit.Default.Testing.csproj", "{CBF16E47-0237-4D2E-BBF9-BC2B722D4E16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{CE11E3EF-2792-4F8B-94D3-E124C665F134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{48590FC2-2EF4-4992-8E33-AC14320FBF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{CBF16E47-0237-4D2E-BBF9-BC2B722D4E16}.Release|x64.Build.0 = Release|Any CPU
 		{CBF16E47-0237-4D2E-BBF9-BC2B722D4E16}.Release|x86.ActiveCfg = Release|Any CPU
 		{CBF16E47-0237-4D2E-BBF9-BC2B722D4E16}.Release|x86.Build.0 = Release|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Debug|x64.Build.0 = Debug|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Debug|x86.Build.0 = Debug|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Release|x64.ActiveCfg = Release|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Release|x64.Build.0 = Release|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Release|x86.ActiveCfg = Release|Any CPU
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48590FC2-2EF4-4992-8E33-AC14320FBF9A} = {CE11E3EF-2792-4F8B-94D3-E124C665F134}
 	EndGlobalSection
 EndGlobal
