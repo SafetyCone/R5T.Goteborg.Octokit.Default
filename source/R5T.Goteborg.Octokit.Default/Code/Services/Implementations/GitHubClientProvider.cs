@@ -1,14 +1,17 @@
 using System;
 
-using Octokit;using R5T.T0064;
+using Octokit;
+
+using R5T.T0064;
 
 
 namespace R5T.Goteborg.Octokit.Default
-{[ServiceImplementationMarker]
+{
     /// <summary>
     /// Default GitHub client is authenticted.
     /// Uses the <see cref="IAuthenticatedGitHubClientProvider"/> service to return an authenticated GitHub client.
     /// </summary>
+    [ServiceImplementationMarker]
     public class GitHubClientProvider : IGitHubClientProvider,IServiceImplementation
     {
         private IAuthenticatedGitHubClientProvider AuthenticatedGitHubClientProvider { get; }
